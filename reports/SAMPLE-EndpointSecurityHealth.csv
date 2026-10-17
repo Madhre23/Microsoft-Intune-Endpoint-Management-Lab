@@ -1,0 +1,2 @@
+ComputerName,AntivirusEnabled,RealTimeProtection,DefenderService,SecurityIntelligenceVersion,DomainFirewall,PrivateFirewall,PublicFirewall,LastChecked
+INTUNE-WIN11-01,True,True,Running,1.461.64.0,True,True,True,2026-10-17 05:25:38

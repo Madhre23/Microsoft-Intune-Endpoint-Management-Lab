@@ -1,0 +1,2 @@
+ComputerName,ServiceName,StatusBefore,ActionTaken,StatusAfter,LastChecked
+INTUNE-WIN11-01,Spooler,Stopped,Attempted to start service,Running,2026-10-17 05:30:44
