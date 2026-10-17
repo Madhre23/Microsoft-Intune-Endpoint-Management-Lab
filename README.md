@@ -38,6 +38,7 @@ The lab reflects common responsibilities of **IT Support Technicians**, **Help D
 ---
 
 ## Project Objectives
+
 ## 1. Windows VM and enrollment
 
 Configured a Windows 11 Enterprise evaluation VM with virtual TPM 2.0, UEFI, and Secure Boot. Enrolled the device into Intune and confirmed its presence in Company Portal and the admin center.
@@ -52,6 +53,11 @@ Created a pilot Microsoft Entra security group for targeted management. Configur
 ![Pilot group](screenshots/04-device-group.png)
 ![Policy compliance](screenshots/05-compliance-verified.png)
 
+The compliance test also documented a device access issue and its remediation after updating Microsoft Defender security intelligence.
+
+![Compliance investigation](screenshots/13-compliance-incident.png)
+![Compliance restored](screenshots/14-compliance-remediated.png)
+
 ## 3. Application administration
 
 Created and targeted a Microsoft Store application assignment. Prepared a **7-Zip Win32** package with Microsoft's Win32 Content Prep Tool and configured silent installation, uninstall commands, architecture requirements, a file-based detection rule, and a Required assignment to the pilot group.
@@ -59,6 +65,8 @@ Created and targeted a Microsoft Store application assignment. Prepared a **7-Zi
 These screenshots demonstrate **application packaging and deployment configuration**.
 
 ![Store application assignment](screenshots/06-store-app-assignment.png)
+![7-Zip Win32 package prepared](screenshots/15-win32-package.png)
+![7-Zip required group assignment](screenshots/16-win32-assignment.png)
 
 ## 4. Endpoint security
 
@@ -66,6 +74,7 @@ Configured Microsoft Defender Antivirus, Windows Firewall (Domain / Private / Pu
 
 ![Defender settings](screenshots/07-defender-configuration.png)
 ![Security policy success](screenshots/09-security-policies-succeeded.png)
+![ASR policy assignment](screenshots/17-asr-policy-assignment.png)
 
 ## 5. PowerShell automation
 
